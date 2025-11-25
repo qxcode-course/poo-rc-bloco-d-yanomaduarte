@@ -1,0 +1,33 @@
+2025-11-25 09:09:20, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:09:21, EXEC, v:1, k:poo@contato, mode:FULL, rate:0
+2025-11-25 09:09:28, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:16:43, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:16:44, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:45
+2025-11-25 09:17:42, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:48
+2025-11-25 09:17:43, EXEC, v:1, k:poo@contato, mode:FULL, rate:0
+2025-11-25 09:17:49, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:21:47, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:21:48, EXEC, v:1, k:poo@contato, mode:FULL, rate:0
+2025-11-25 09:21:49, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:29:15, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:29:15, EXEC, v:1, k:poo@contato, mode:FULL, rate:0
+2025-11-25 09:29:17, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:35:48, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:35:48, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:67
+2025-11-25 09:35:53, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:37:21, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:37:21, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:73
+2025-11-25 09:37:29, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:37:50, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:37:50, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:73
+2025-11-25 09:37:56, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:39:24, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:39:24, EXEC, v:1, k:poo@contato, mode:FULL, rate:0
+2025-11-25 09:39:28, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:39:36, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:39:37, EXEC, v:1, k:poo@contato, mode:FULL, rate:0
+2025-11-25 09:44:50, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:68
+2025-11-25 09:44:56, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-25 09:45:38, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-25 09:45:39, EXEC, v:1, k:poo@contato, mode:FULL, rate:0, size:68
+2025-11-25 09:46:15, MOVE, v:1, k:poo@contato, mode:BACK

@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-24_09-05-45",
+            "content": "@@ -1,933 +0,0 @@\n-class Fone:%0A    def __init__(self, id: str, number: str):%0A        self.id = id%0A        self.number = number%0A%0A    def isValid(self, number: str)-%3E bool:%0A        valid_char = %220123456789()%22%0A        for char in number:%0A            if char not in valid_char:%0A                return False%0A            return True%0A        %0A    def __str__(self):%0A        return f%22%7Bself.id%7D:%7Bself.number%7D%22%0A    %0Aclass Contact:%0A    def __init__(self, name: str):%0A        self.name = name%0A        self.fone = %5B%5D%0A        self.favorited = False%0A        %0A%0Adef main():%0A    contact = Contact()%0A        %0A    while True:%0A        try:%0A            line = input()%0A        except EOFError:%0A            break%0A%0A        print(f%22$%7Bline%7D%22)%0A        args = line.split()%0A%0A        if len(args) == 0:%0A            continue%0A%0A        cmd = args%5B0%5D%0A%0A        if cmd == %22end%22:%0A            break%0A%0A        elif cmd == %22init%22:%0A            name = args%5B1%5D%0A            contact = Contact(name)%0A\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-11-25_09-16-44",
+            "content": "@@ -512,62 +512,8 @@\n alse\n-%0A%0A    def __str__(self):%0A        return f%22%7Bself.name%7D%22\n %0A   \n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-11-25_09-17-42",
+            "content": "@@ -85,18 +85,16 @@\n    self.\n-__\n number =\n@@ -106,235 +106,8 @@\n er%0A%0A\n-    def getId(self) -%3E str:%0A        self.id = id%0A%0A    def setId(self):%0A        return self.id%0A    %0A    def getNumber(self, number: str) -%3E str:%0A        self.number = number%0A%0A    def setNumber(self):%0A        return self.number%0A%0A\n     \n@@ -472,17 +472,16 @@\n elf.fone\n-s\n  = %5B%5D%0A  \n@@ -514,193 +514,8 @@\n se%0A%0A\n-    def addFone(self, id: str, number: str):%0A        if Fone.isValid(number):%0A            self.fones.append(Fone(id, number))%0A        else:%0A            print(%22fail: n%C3%BAmero inv%C3%A1lido%22)%0A%0A%0A\n     \n",
+            "lines": "48"
+        },
+        {
+            "label": "2025-11-25_09-35-48",
+            "content": "@@ -1399,68 +1399,4 @@\n me)%0A\n-%0A        elif cmd == %22show%22:%0A            print(contact)%0A%0A%0Amain()\n",
+            "lines": "67"
+        },
+        {
+            "label": "2025-11-25_09-37-21",
+            "content": "@@ -672,18 +672,16 @@\n    self.\n-__\n name = n\n",
+            "lines": "73"
+        },
+        {
+            "label": "2025-11-25_09-37-50",
+            "content": "@@ -64,18 +64,16 @@\n    self.\n-__\n id = id%0A\n@@ -124,32 +124,75 @@\n d(self) -%3E str:%0A\n+        self.id = id%0A%0A    def setId(self):%0A\n         return s\n@@ -195,18 +195,16 @@\n rn self.\n-__\n id%0A    %0A\n@@ -240,32 +240,87 @@\n r: str) -%3E str:%0A\n+        self.number = number%0A%0A    def setNumber(self):%0A\n         return s\n@@ -1028,10 +1028,8 @@\n act(\n-%22%22\n )%0A  \n@@ -1459,39 +1459,8 @@\n )%0A%0A%0A\n-if __name__ == %22__main__%22:%0A    \n main\n",
+            "lines": "73"
+        },
+        {
+            "label": "2025-11-25_09-44-50",
+            "content": "@@ -491,18 +491,16 @@\n f%22%7Bself.\n-__\n id%7D:%7Bsel\n@@ -497,26 +497,24 @@\n f.id%7D:%7Bself.\n-__\n number%7D%22%0A   \n@@ -875,26 +875,24 @@\n urn f%22%7Bself.\n-__\n name%7D%22%0A     \n",
+            "lines": "68"
+        },
+        {
+            "label": "2025-11-25_09-45-39",
+            "content": "class Fone:\n    def __init__(self, id: str, number: str):\n        self.__id = id\n        self.__number = number\n\n    def getId(self) -> str:\n        return self.__id\n    \n    def getNumber(self, number: str) -> str:\n        return self.number\n\n    def isValid(self, number: str)-> bool:\n        valid_char = \"0123456789()\"\n        for char in number:\n            if char not in valid_char:\n                return False\n            return True\n        \n    def __str__(self):\n        return f\"{self.__id}:{self.__number}\"\n    \nclass Contact:\n    def __init__(self, name: str):\n        self.__name = name\n        self.fones = []\n        self.favorited = False\n\n    def addFone(self, id: str, number: str):\n        if Fone.isValid(number):\n            self.fones.append(Fone(id, number))\n        else:\n            print(\"fail: n\u00famero inv\u00e1lido\")\n\n\n    def __str__(self):\n        return f\"{self.__name}\"\n        \n\ndef main():\n    contact = Contact(\"\")\n        \n    while True:\n        try:\n            line = input()\n        except EOFError:\n            break\n\n        print(f\"${line}\")\n        args = line.split()\n\n        if len(args) == 0:\n            continue\n\n        cmd = args[0]\n\n        if cmd == \"end\":\n            break\n\n        elif cmd == \"init\":\n            name = args[1]\n            contact = Contact(name)\n\n        elif cmd == \"show\":\n            print(contact)\n\n\nif __name__ == \"__main__\":\n    main()",
+            "lines": "68"
+        }
+    ]
+}
