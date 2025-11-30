@@ -11,7 +11,7 @@ class Fone:
 
     @staticmethod
     def isValid(number: str)-> bool:
-        valid_char = "0123456789()"
+        valid_char = "0123456789()."
         for char in number:
             if char not in valid_char:
                 return False
@@ -42,7 +42,7 @@ class Contact:
         if Fone.isValid(number):
             self.__fones.append(Fone(id, number))
         else:
-            print("fail: número inválido")
+            print("fail: invalid number")
 
     def rmFone(self, index: int):
         if 0 <= index < len(self.__fones):
