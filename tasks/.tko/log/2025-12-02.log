@@ -1,0 +1,20 @@
+2025-12-02 08:28:10, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-12-02 08:28:12, EXEC, v:1, k:poo@agenda, mode:FULL, rate:25
+2025-12-02 08:28:44, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-12-02 17:54:48, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-12-02 17:54:50, EXEC, v:1, k:poo@agenda, mode:FULL, rate:25
+2025-12-02 18:33:16, EXEC, v:1, k:poo@agenda, mode:FULL, rate:25
+2025-12-02 18:33:17, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-12-02 18:36:36, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-12-02 18:36:37, EXEC, v:1, k:poo@agenda, mode:FULL, rate:25, size:141
+2025-12-02 18:37:24, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-12-02 18:39:17, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-12-02 18:39:18, EXEC, v:1, k:poo@agenda, mode:FULL, rate:25, size:148
+2025-12-02 18:39:35, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-12-02 18:42:42, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-12-02 18:42:43, EXEC, v:1, k:poo@agenda, mode:FULL, rate:25, size:167
+2025-12-02 18:44:24, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-12-02 19:12:51, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-12-02 19:12:52, EXEC, v:1, k:poo@agenda, mode:FULL, rate:100, size:200
+2025-12-02 19:12:58, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-12-02 19:14:44, SELF, v:1, k:poo@agenda, rate:100, guide:_videoaula_do_youtube, alone:9, study:340

@@ -1,0 +1,32 @@
+2025-11-29 20:05:12, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:05:13, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:05:27, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 20:05:37, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:05:38, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:05:40, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 20:05:56, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:05:56, EXEC, v:1, k:poo@contato, mode:FULL, rate:60, size:109
+2025-11-29 20:11:03, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 20:11:05, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:11:06, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:11:07, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:11:07, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 20:18:57, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:18:58, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:19:00, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 20:21:20, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:21:21, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:41:05, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 20:41:06, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 20:56:15, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 20:56:16, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 21:52:49, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 21:52:50, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 21:52:51, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 21:52:53, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 21:52:53, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 21:52:55, MOVE, v:1, k:poo@contato, mode:PICK
+2025-11-29 21:52:59, EXEC, v:1, k:poo@contato, mode:FULL, rate:60
+2025-11-29 21:55:02, EXEC, v:1, k:poo@contato, mode:FULL, rate:100, size:109
+2025-11-29 21:55:08, MOVE, v:1, k:poo@contato, mode:BACK
+2025-11-29 21:56:39, SELF, v:1, k:poo@contato, rate:100, guide:_aulas_das_turmas_passadas_em_outras_linguagens, alone:9, study:300
