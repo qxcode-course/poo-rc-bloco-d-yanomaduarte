@@ -42,7 +42,7 @@ class Contact:
         if Fone.isValid(number):
             self.__fones.append(Fone(id, number))
         else:
-            print("fail: invalid number")
+            print("fail: número inválido")
 
     def rmFone(self, index: int):
         if 0 <= index < len(self.__fones):
@@ -92,7 +92,7 @@ class Agenda:
         if pos != -1:
             del self.__contacts[pos]
         else:
-            print("fail: contact not found")
+            print("fail: contato não encontrado")
 
     def getContact(self, name: str):
         pos = self.__findPosByName(name)
@@ -129,8 +129,6 @@ class Agenda:
         for contact in self.__contacts:
             lines.append(str(contact))
         return "\n".join(lines)
-
-        
         
 
 def main():
