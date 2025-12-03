@@ -172,7 +172,7 @@ def main():
             if contact is not None:
                 contact.rmFone(index)
             else:
-                print("fail: contact not found")
+                print("fail: contato não encontrado")
 
         elif cmd == "show":
             print(agenda)
@@ -183,7 +183,7 @@ def main():
             if contact is not None:
                 contact.toogleFavorited()
             else:
-                print("fail: contact not found")
+                print("fail: contato não encontrado")
 
         elif cmd == "favs":
             favs = agenda.getFavorited()
